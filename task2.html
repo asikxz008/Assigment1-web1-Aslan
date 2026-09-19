@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task 2 | Layout with Div &amp; Floats</title>
+  <link rel="stylesheet" href="task2.css">
+</head>
+<body>
+
+  <div class="navbar">
+    <div class="nav-brand">Aslan<span>.dev</span></div>
+    <div class="nav-links">
+      <a href="index.html">Task 1</a>
+      <a href="task2.html" class="active">Task 2</a>
+      <a href="exercise1/index.html">Task 3</a>
+      <a href="task4.html">Task 4</a>
+      <a href="task5.html">Task 5</a>
+    </div>
+  </div>
+
+  <div class="header">
+    <h1>Task 2</h1>
+  </div>
+
+  <div class="page-nav">
+    <a href="index.html">Home</a>
+    <a href="task2.html">Layout Demo</a>
+    <a href="exercise1/index.html">Tribute Page</a>
+    <a href="task4.html">Table &amp; Form</a>
+  </div>
+
+  <div class="page-wrapper">
+
+    <div class="sidebar">
+      <h3>Menu</h3>
+      <ul>
+        <li><a href="#section1">Overview</a></li>
+        <li><a href="#section2">Details</a></li>
+        <li><a href="#section3">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="content">
+      <h2>Main Content</h2>
+      <p>
+        This section is floated to the right of the sidebar using pure CSS positioning —
+        no Flexbox or Grid was used anywhere on this page. The header sits on top, the
+        navigation bar sits below it, and the sidebar and content form a simple
+        two-column layout in the middle.
+      </p>
+      <p>
+        Resizing the window below 700px switches the layout back to a single stacked
+        column, which is handled with a media query at the bottom of the stylesheet.
+      </p>
+    </div>
+
+  </div>
+
+  <div class="footer">
+    <p>&copy; 2026 Aslan Sabyr — Task 2, Assignment 1</p>
+  </div>
+
+</body>
+</html>

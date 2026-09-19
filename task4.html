@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task 4 | Table &amp; Form</title>
+  <link rel="stylesheet" href="task4.css">
+</head>
+<body>
+
+  <div class="navbar">
+    <div class="nav-brand">Aslan<span>.dev</span></div>
+    <div class="nav-links">
+      <a href="index.html">Task 1</a>
+      <a href="task2.html">Task 2</a>
+      <a href="exercise1/index.html">Task 3</a>
+      <a href="task4.html" class="active">Task 4</a>
+    </div>
+  </div>
+
+  <h1 id="page-title">Student Grades &amp; Feedback Form</h1>
+
+  <section class="table-section">
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Subject</th>
+          <th>Grade</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="highlight-row">
+          <td>Aslan Sabyr</td>
+          <td>WEB Technologies 1</td>
+          <td>95</td>
+        </tr>
+        <tr>
+          <td>Aslan Sabyr</td>
+          <td>Software Design Patterns</td>
+          <td>95</td>
+        </tr>
+        <tr>
+          <td>Aslan Sabyr</td>
+          <td>Operating Systems</td>
+          <td>100</td>
+        </tr>
+        <tr>
+          <td>Aslan Sabyr</td>
+          <td>Design and Analysis of Algorithms</td>
+          <td>90</td>
+        </tr>
+        <tr>
+          <td>Aslan Sabyr</td>
+          <td>Russian Language 1 (C1)</td>
+          <td>100</td>
+        </tr>
+        <tr>
+          <td colspan="2">Average Grade</td>
+          <td>96</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section class="form-section">
+    <h2>Feedback Form</h2>
+    <form>
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name">
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email">
+
+      <label for="role">Role</label>
+      <select id="role" name="role">
+        <option value="student">Student</option>
+        <option value="teacher">Teacher</option>
+        <option value="other">Other</option>
+      </select>
+
+      <label>Was this assignment helpful?</label>
+      <div class="radio-group">
+        <label class="radio-label"><input type="radio" name="helpful" value="yes"> Yes</label>
+        <label class="radio-label"><input type="radio" name="helpful" value="no"> No</label>
+      </div>
+
+      <label for="comments">Comments</label>
+      <textarea id="comments" name="comments" rows="4" placeholder="Write your comments here..."></textarea>
+
+      <button type="submit" class="submit-btn">Submit</button>
+    </form>
+  </section>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Aslan Sabyr — Task 4, Assignment 1</p>
+  </footer>
+
+</body>
+</html>

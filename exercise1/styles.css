@@ -1,0 +1,154 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', Arial, sans-serif;
+  background: linear-gradient(180deg, #14213D 0%, #1D3557 260px, #EDF2F4 260px);
+  color: #2B2D42;
+}
+
+h1, h2, h3, .btn {
+  font-family: 'Bebas Neue', 'Segoe UI', sans-serif;
+  letter-spacing: 0.5px;
+}
+
+.navbar {
+  background-color: #14213D;
+  padding: 15px 30px;
+  border-bottom: 3px solid #EF8354;
+}
+
+.nav-brand {
+  color: #EDF2F4;
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-family: 'Inter', sans-serif;
+}
+
+.nav-brand span {
+  color: #EF8354;
+}
+
+.nav-links a {
+  color: #EDF2F4;
+  text-decoration: none;
+  margin-right: 18px;
+  padding: 6px 10px;
+  border-radius: 4px;
+  font-family: 'Inter', sans-serif;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.nav-links a:hover {
+  background-color: #EF8354;
+  color: #14213D;
+}
+
+.nav-links a.active {
+  border-bottom: 2px solid #EF8354;
+}
+
+.hero {
+  text-align: center;
+  padding: 40px 20px 30px;
+  color: #ffffff;
+}
+
+.hero h1 {
+  font-size: 56px;
+  margin: 0 0 8px;
+  color: #EF8354;
+}
+
+.tagline {
+  font-weight: normal;
+  color: #8D99AE;
+  font-size: 16px;
+  font-family: 'Inter', sans-serif;
+}
+
+.content {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 0 20px 50px;
+}
+
+.content section {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  padding: 24px 28px;
+  margin-bottom: 24px;
+}
+
+.content h2 {
+  color: #1D3557;
+  border-bottom: 2px solid #EF8354;
+  display: inline-block;
+  padding-bottom: 4px;
+  margin-top: 0;
+}
+
+.content p {
+  line-height: 1.7;
+}
+
+ol, ul {
+  padding-left: 22px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+#portrait {
+  text-align: center;
+}
+
+.portrait {
+  max-width: 280px;
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+  border: 3px solid #1D3557;
+}
+
+a {
+  color: #1D3557;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #EF8354;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  margin-top: 8px;
+  transition: background-color 0.2s ease;
+}
+
+.btn:hover {
+  background-color: #d96b3a;
+}
+
+.site-footer {
+  text-align: center;
+  background-color: #14213D;
+  color: #8D99AE;
+  padding: 16px;
+  font-size: 14px;
+}
+
+@media (max-width: 600px) {
+  .hero h1 {
+    font-size: 38px;
+  }
+
+  .content section {
+    padding: 18px;
+  }
+}

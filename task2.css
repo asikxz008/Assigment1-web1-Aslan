@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  background-color: #EDF2F4;
+  color: #2B2D42;
+}
+
+.navbar {
+  background-color: #2B2D42;
+  padding: 15px 30px;
+  border-bottom: 3px solid #EF8354;
+}
+
+.nav-brand {
+  color: #EDF2F4;
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.nav-brand span {
+  color: #EF8354;
+}
+
+.nav-links a {
+  color: #EDF2F4;
+  text-decoration: none;
+  margin-right: 18px;
+  padding: 6px 10px;
+  border-radius: 4px;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.nav-links a:hover {
+  background-color: #EF8354;
+  color: #2B2D42;
+}
+
+.nav-links a.active {
+  border-bottom: 2px solid #EF8354;
+}
+
+.header {
+  background-color: #2B2D42;
+  color: #EDF2F4;
+  text-align: center;
+  padding: 25px 15px;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.page-nav {
+  background-color: #457B9D;
+  padding: 12px 30px;
+  position: relative;
+}
+
+.page-nav a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-right: 22px;
+  padding: 4px 8px;
+  transition: color 0.2s ease;
+}
+
+.page-nav a:hover {
+  color: #EF8354;
+}
+
+.page-wrapper {
+  overflow: hidden; 
+  padding: 20px;
+}
+
+.sidebar {
+  float: left;
+  width: 25%;
+  background-color: #ffffff;
+  border: 1px solid #8D99AE;
+  border-radius: 6px;
+  padding: 18px;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.sidebar h3 {
+  margin-top: 0;
+  color: #EF8354;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin-bottom: 10px;
+}
+
+.sidebar a {
+  color: #2B2D42;
+  text-decoration: none;
+}
+
+.sidebar a:hover {
+  color: #EF8354;
+}
+
+.content {
+  float: right;
+  width: 70%;
+  background-color: #ffffff;
+  border: 1px solid #8D99AE;
+  border-radius: 6px;
+  padding: 20px 25px;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.content h2 {
+  margin-top: 0;
+}
+
+.footer {
+  clear: both;
+  text-align: center;
+  background-color: #2B2D42;
+  color: #8D99AE;
+  padding: 16px;
+  font-size: 14px;
+}
+
+@media (max-width: 700px) {
+  .sidebar, .content {
+    float: none;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}

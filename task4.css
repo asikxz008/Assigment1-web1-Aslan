@@ -1,0 +1,168 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  background-color: #EDF2F4;
+  color: #2B2D42;
+}
+
+.navbar {
+  background-color: #2B2D42;
+  padding: 15px 30px;
+  border-bottom: 3px solid #EF8354;
+}
+
+.nav-brand {
+  color: #EDF2F4;
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.nav-brand span {
+  color: #EF8354;
+}
+
+.nav-links a {
+  color: #EDF2F4;
+  text-decoration: none;
+  margin-right: 18px;
+  padding: 6px 10px;
+  border-radius: 4px;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.nav-links a:hover {
+  background-color: #EF8354;
+  color: #2B2D42;
+}
+
+.nav-links a.active {
+  border-bottom: 2px solid #EF8354;
+}
+
+#page-title {
+  text-align: center;
+  padding: 30px 20px 10px;
+}
+
+.table-section {
+  display: flex;
+  justify-content: center;
+  padding: 10px 20px 40px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 650px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+th, td {
+  border: 1px solid #8D99AE;
+  padding: 12px 16px;
+  text-align: center;
+}
+
+thead th {
+  background-color: #2B2D42;
+  color: #EDF2F4;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f4f6f8;
+}
+
+tr.highlight-row {
+  background-color: #cae9ef;
+  font-weight: bold;
+}
+
+.form-section {
+  max-width: 420px;
+  margin: 0 auto 50px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 28px 30px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.form-section h2 {
+  margin-top: 0;
+  text-align: center;
+  color: #EF8354;
+}
+
+form {
+  display: block;
+}
+
+form label {
+  display: block;
+  font-weight: bold;
+  margin: 14px 0 6px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form select,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #8D99AE;
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 14px;
+}
+
+.radio-group {
+  display: block;
+}
+
+.radio-label {
+  display: inline-block;
+  font-weight: normal;
+  margin-right: 20px;
+}
+
+.radio-label input {
+  margin-right: 6px;
+}
+
+.submit-btn {
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+  padding: 12px;
+  background-color: #EF8354;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.submit-btn:hover {
+  background-color: #d96b3a;
+}
+
+.site-footer {
+  text-align: center;
+  background-color: #2B2D42;
+  color: #8D99AE;
+  padding: 16px;
+  font-size: 14px;
+}
+
+@media (max-width: 500px) {
+  .form-section {
+    margin: 0 15px 40px;
+    padding: 20px;
+  }
+}

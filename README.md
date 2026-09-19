@@ -36,5 +36,5 @@ Just open `index.html` in any browser — no build step or dependencies needed.
 
 ## Navigation
 
-Every page has a navbar at the top linking to all tasks (Task 1 → Task 5), so you
+Every page has a navbar at the top linking to all tasks (Task 1 → Task 4), so you
 can move between them without going back to the repo.
